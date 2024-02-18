@@ -26,19 +26,42 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  margin: 137px auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
 
 ul {
   margin: 0;
   padding: 0;
+}
+
+button {
+  padding: 8px 16px;
 }
 
 .left-links,
